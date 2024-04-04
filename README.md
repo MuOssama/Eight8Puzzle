@@ -4,6 +4,30 @@
 ## Description
 This Python program includes both a simple 8 puzzle game and a solver that finds the optimal solution path using a search algorithm. The game allows players to interactively solve the puzzle, while the solver automatically finds the solution from any given start state to the goal state.
 
+## How to use
+1. start main.exe file and play
+2. restart he file and open Answers.exe
+3. follow the answers from Answers.exe
+
+## Configurations 
+if you want to start the game with other initial position
+open main.py Board setup
+in lines 31,32
+>board = [[4, 1, 3],[ 7, 2, 5], [8, 0, 6]]\
+>empty_tile_pos = (2, 1)
+change the board array and make sure in empty_tile_pos has the index of zero by default the 0 is on 3rd rows and 2nd col, so the list had 2,1
+
+for the answers
+open Answers.py
+line 133
+>start = np.array([[4, 1, 3],[ 7, 2, 5], [8, 0, 6]])
+
+you can change the initial position and make sure also to change the startIndex to index of zero also
+>startIndex = (2, 1)
+
+
+
+
 ## Installation
 Ensure you have Python 3.x and Pygame installed. Run the game using `python 8_puzzle_game.py` and the solver using `python 8_puzzle_solver.py`.
 
