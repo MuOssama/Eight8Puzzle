@@ -25,6 +25,8 @@ line 133
 you can change the initial position and make sure also to change the startIndex to index of zero also
 >startIndex = (2, 1)
 
+finnaly, main.exe and Answers.exe should be deleted as their havent any changes\
+you can use auto-py-to-exe to re-create the exe files or you simply run the Answers.py and main.py not the exe
 
 
 
